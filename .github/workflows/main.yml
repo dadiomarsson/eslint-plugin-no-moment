@@ -12,6 +12,7 @@ jobs:
         uses: actions/setup-node@v4.0.2
         with:
           node-version: 20
+          registry-url: 'https://registry.npmjs.org/'
       - name: Npm install
         run: npm ci
       - name: Npm Publish
