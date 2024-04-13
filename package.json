@@ -1,5 +1,5 @@
 {
-  "name": "eslint-plugin-no-moment",
+  "name": "@dadio20/eslint-plugin-no-moment",
   "version": "1.0.0",
   "description": "ESLint plugin that forbids the use of the moment library",
   "main": "index.js",
