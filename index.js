@@ -1,3 +1,3 @@
-const noMoment = require('moment');
+import noMoment from './no-moment';
 const plugin = { rules: { 'no-moment': noMoment } };
-module.exports = plugin;
+export default plugin;
